@@ -12,7 +12,7 @@ gulp.task('serve', ['sass'], function() {
     });
 
     gulp.watch(path +"/assets/scss/*.scss", ['sass']);
-    // gulp.watch(path +"/**/*", browserSync.reload);
+    gulp.watch(path +"/**/*", browserSync.reload);
 });
 
 gulp.task('sass', function() {
@@ -20,8 +20,8 @@ gulp.task('sass', function() {
         .pipe(plumber())
         .pipe(sass.sync().on('error', sass.logError))
         .pipe(sass())
-        .pipe(gulp.dest(path +"/assets/css"));
-        // .pipe(browserSync.stream());
+        .pipe(gulp.dest(path +"/assets/css"))
+        .pipe(browserSync.stream());
 });
 
 gulp.task('default', ['serve']);

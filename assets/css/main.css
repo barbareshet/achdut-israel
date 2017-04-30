@@ -1,0 +1,65 @@
+/* Globals */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700");
+body {
+  font-family: "Open Sans", sans-serif; }
+
+/* Elements*/
+#top-bar {
+  background: #333333;
+  color: #ffffff; }
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0; }
+
+.navbar .nav li a {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-width: 600;
+  color: #ffffff; }
+
+.navbar .nav li.active a {
+  color: #fff000; }
+
+.page-title,
+.section-title {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; }
+
+/* Layouts */
+#hero {
+  background: url("https://visualhunt.com/photos/l/4/synagogue-jewish-history-architecture-traditional.jpg") no-repeat center center;
+  background-size: cover;
+  height: 450px; }
+
+#hero .page-title {
+  font-size: 2em;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: bold; }
+
+.breaker {
+  min-height: 200px;
+  background-color: #dddddd;
+  color: #333;
+  border-bottom: 3px solid #333333;
+  padding: 50px; }
+
+#activities .event .thumbnail {
+  border: 3px solid #333333;
+  color: #333;
+  border-radius: 0;
+  padding: 7px; }
+
+#activities .event .thumbnail ul {
+  list-style-type: none; }
+
+#activities .event .thumbnail .btn-default {
+  border: none;
+  box-shadow: none;
+  text-align: right; }
+
+/* Pages*/
+/* Media*/

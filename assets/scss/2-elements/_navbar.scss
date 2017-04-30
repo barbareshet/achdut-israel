@@ -1,0 +1,23 @@
+.navbar{
+  border-radius: 0;
+  margin-bottom: 0;
+
+  .nav{
+
+
+    li{
+
+      a{
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        font-width:600;
+        color:#ffffff;
+      }
+    }
+    li.active{
+      a{
+        color: #fff000;
+      }
+    }
+  }
+}
