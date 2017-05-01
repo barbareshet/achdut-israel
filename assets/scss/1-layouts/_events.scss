@@ -1,0 +1,22 @@
+#activities{
+
+  .event{
+
+    .thumbnail{
+      border:3px solid #333333;
+      color:#333;
+      border-radius: 0;
+      padding:7px;
+
+      ul{
+        list-style-type: none;
+      }
+      .btn-default{
+        border:none;
+        box-shadow: none;
+        text-align: right;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700');
+$font-family-titles: 'Montserrat', sans-serif;
+$font-family-text: 'Open Sans', sans-serif;
+$page-title-size: 2em;
+$font-size-base: 1.2em;
+
+body{
+  font-family: $font-family-text;
+}
