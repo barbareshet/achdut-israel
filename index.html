@@ -7,6 +7,17 @@
     <title>Home</title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
+    <style>
+     #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
 </head>
 <body>
 <header>
@@ -252,7 +263,9 @@
     </div><!--/#blog-->
     <div class="container" id="contact">
         <div class="row">
-
+            <div class="col-sm-12" id="map">
+                
+            </div>
         </div>
     </div>
 
@@ -264,5 +277,7 @@
 </footer>
     <script src="assets/js/jquery-1.11.3.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxyb9B9Pm4trm274jgeSECAgAvLrdHQc0&libraries=places"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
