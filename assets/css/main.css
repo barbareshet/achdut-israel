@@ -4,8 +4,10 @@ body {
   font-family: "Open Sans", sans-serif; }
 
 /* Elements*/
-#top-bar {
-  background: #333333;
+header {
+  background: #333333; }
+
+header #top-bar {
   color: #ffffff; }
 
 .navbar {
@@ -21,12 +23,12 @@ body {
 .navbar .nav li.active a {
   color: #fff000; }
 
-.page-title,
+#page-title,
 .section-title {
   text-align: center;
   text-transform: capitalize;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700; }
+  font-size: 2em; }
 
 /* Layouts */
 #hero {
@@ -34,11 +36,13 @@ body {
   background-size: cover;
   height: 450px; }
 
-#hero .page-title {
-  font-size: 2em;
+#hero #page-title {
   text-transform: capitalize;
   text-align: center;
-  font-weight: bold; }
+  font-weight: bold;
+  padding: 3em 0;
+  font-size: 4.3em;
+  color: #ffffff; }
 
 .breaker {
   min-height: 200px;
