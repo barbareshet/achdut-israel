@@ -32,3 +32,41 @@
 
   }
 }
+
+#events-option-2{
+
+
+  .event-date{
+
+
+    .date{
+      font-size: 4em;
+      font-weight: bold;
+    }
+    .month{
+      display: block;
+      position: absolute;
+      top: 18px;
+      left: 85px;
+    }
+  }
+  .event-info{
+
+    .event-title{
+      font-weight: 600;
+      letter-spacing: 2px;
+      font-size: 2.3rem;
+    }
+  }
+  .event-readmore{
+    text-align: center;
+    a.btn-readmore{
+      margin-top: 25px;
+    }
+  }
+  .event-divider{
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+  }
+}

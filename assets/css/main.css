@@ -30,10 +30,8 @@ header #top-bar {
   font-family: "Montserrat", sans-serif;
   font-size: 2em; }
 
-
 .btn-readmore {
   border-radius: 20px; }
-
 
 /* Layouts */
 #hero {
@@ -81,6 +79,27 @@ header #top-bar {
 
 #activities .event .thumbnail:hover {
   background: #ddd; }
+
+#events-option-2 .event-date .date {
+  font-size: 4em;
+  font-weight: bold; }
+
+#events-option-2 .event-date .month {
+  display: block;
+  position: absolute;
+  top: 18px;
+  left: 85px; }
+
+#events-option-2 .event-info .event-title {
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 2.3rem; }
+
+#events-option-2 .event-readmore {
+  text-align: center; }
+
+#events-option-2 .event-readmore a.btn-readmore {
+  margin-top: 25px; }
 
 /* Pages*/
 #gallery .gal-img {
