@@ -3,19 +3,31 @@
   .event{
 
     .thumbnail{
-      border:3px solid #333333;
+      border:5px solid #333333;
       color:#333;
       border-radius: 0;
       padding:7px;
-
+      height:180px;
+      .event-title{
+        font-weight:bold;
+      }
       ul{
         list-style-type: none;
+        padding-left: 0;
+        margin-left: 0;
       }
-      .btn-default{
+      a.btn-event{
         border:none;
         box-shadow: none;
         text-align: right;
+        position: absolute;
+        right: 25px;
+        bottom: 35px;
       }
+    }
+    .thumbnail:hover{
+      background: #ddd;
+
     }
 
   }
