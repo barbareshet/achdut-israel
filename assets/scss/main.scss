@@ -6,7 +6,7 @@
 @import "2-elements/_navbar";
 @import "2-elements/_titles";
 @import "2-elements/_buttons";
-//@import "2-elements/_footer";
+@import "2-elements/_dividers";
 
 /* Layouts */
 @import "1-layouts/_hero";
@@ -14,7 +14,12 @@
 @import "1-layouts/_events";
 /* Pages*/
 @import "3-pages/_front-page";
+@import "3-pages/about";
 /* Media*/
 
+/*Plugins*/
+@import "5-plugins/slick-slider";
 
+/* Fonts*/
+//@import "../font-awesome/scss/font-awesome";
 

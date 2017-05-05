@@ -3,6 +3,9 @@
 body {
   font-family: "Open Sans", sans-serif; }
 
+.no-border {
+  border: none; }
+
 #site-footer {
   height: 250px;
   background-color: #333333;
@@ -28,6 +31,13 @@ header #top-bar {
 .navbar .nav li.active a {
   color: #fff000; }
 
+.navbar.affix {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 9999; }
+
 #page-title,
 .section-title {
   text-align: center;
@@ -37,6 +47,10 @@ header #top-bar {
 
 .btn-readmore {
   border-radius: 20px; }
+
+.divider {
+  width: 85%;
+  border-top-color: #ddd; }
 
 /* Layouts */
 #hero {
@@ -128,7 +142,6 @@ header #top-bar {
   margin-top: 25px; }
 
 #events-option-2 .event-divider {
-  color: red;
   text-align: center;
   width: 75%; }
 
@@ -136,4 +149,15 @@ header #top-bar {
 #gallery .gal-img {
   margin-top: 15px; }
 
+.thumbnail.no-border {
+  border: none; }
+
+.thumbnail.no-border .tm-text {
+  line-height: 1.4; }
+
 /* Media*/
+/*Plugins*/
+.slick-slider img {
+  margin: 0 auto; }
+
+/* Fonts*/
