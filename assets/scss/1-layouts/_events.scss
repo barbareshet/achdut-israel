@@ -34,7 +34,10 @@
 }
 
 #events-option-2{
-
+  .inner-row{
+    margin-top: 15px;
+    padding-top: 15px;
+  }
 
   .event-date{
 
@@ -65,8 +68,9 @@
     }
   }
   .event-divider{
-    margin: 0 auto;
+    color: red;
     text-align: center;
     width: 75%;
+
   }
 }

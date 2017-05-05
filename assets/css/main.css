@@ -3,6 +3,11 @@
 body {
   font-family: "Open Sans", sans-serif; }
 
+#site-footer {
+  height: 250px;
+  background-color: #333333;
+  color: #fff; }
+
 /* Elements*/
 header {
   background: #333333; }
@@ -47,6 +52,23 @@ header #top-bar {
   font-size: 4.3em;
   color: #ffffff; }
 
+#hero .container:after {
+  z-index: 0;
+  background: white;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 10em;
+  position: absolute;
+  top: 440px;
+  left: 0;
+  -webkit-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+  -webkit-transform-origin: bottom left;
+  -ms-transform-origin: bottom left;
+  transform-origin: bottom left; }
+
 .breaker {
   min-height: 200px;
   background-color: #dddddd;
@@ -80,6 +102,10 @@ header #top-bar {
 #activities .event .thumbnail:hover {
   background: #ddd; }
 
+#events-option-2 .inner-row {
+  margin-top: 15px;
+  padding-top: 15px; }
+
 #events-option-2 .event-date .date {
   font-size: 4em;
   font-weight: bold; }
@@ -100,6 +126,11 @@ header #top-bar {
 
 #events-option-2 .event-readmore a.btn-readmore {
   margin-top: 25px; }
+
+#events-option-2 .event-divider {
+  color: red;
+  text-align: center;
+  width: 75%; }
 
 /* Pages*/
 #gallery .gal-img {
