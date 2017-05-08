@@ -5,3 +5,19 @@
     margin-top: 15px;
   }
 }
+#contact{
+
+  .row{
+
+    .phone,
+    .address,
+    .email{
+        i.fa{
+          display: block;
+        }
+      span{
+        display: block;
+      }
+    }
+  }
+}
