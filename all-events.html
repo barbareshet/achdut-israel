@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>All Events</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <style>
+        #map {
+            height: 100%;
+        }
+        /* Optional: Makes the sample page fill the window. */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="container-fluid" id="top-bar">
+        <div class="row">
+            <div class="container inner-container">
+                <div class="row inner-row">
+
+                    <div class="col-sm-12 text-right">
+                        <ul id="langs" class="list-inline">
+                            <li>HE</li>
+                            <li>EN</li>
+                            <li>FR</li>
+                            <li>ES</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+    </div>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Brand</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="activities.html">activities</a></li>
+                    <li><a href="gallery.html">gallery</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li class="active"><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<section id="hero" class="post-thumbnail">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 title-wrap text-center">
+                <h1 id="post-title">All Events</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="main-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 col-md-offset-1 col-sm-12 table-responsive">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                    <tr>
+                        <td>Topic</td>
+                        <td>Date</td>
+                        <td>place</td>
+                        <td>time</td>
+                        <td colspan="2">description</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="col-sm-1">Some Topic</td>
+                        <td class="col-sm-1">Some Date</td>
+                        <td class="col-sm-1">Some place</td>
+                        <td class="col-sm-1">Some time</td>
+                        <td class="e-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur at distinctio esse fuga hic iure quae voluptatibus.
+                            Aut, distinctio eius in libero optio perferendis voluptatum.
+                        </td>
+                        <td class="col-sm-2">link to more info</td>
+                    </tr>
+                    <tr>
+                        <td class="col-sm-1">Some Topic</td>
+                        <td class="col-sm-1">Some Date</td>
+                        <td class="col-sm-1">Some place</td>
+                        <td class="col-sm-1">Some time</td>
+                        <td class="e-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur at distinctio esse fuga hic iure quae voluptatibus.
+                            Aut, distinctio eius in libero optio perferendis voluptatum.
+                        </td>
+                        <td class="col-sm-2">link to more info</td>
+                    </tr>
+                    <tr>
+                        <td class="col-sm-1">Some Topic</td>
+                        <td class="col-sm-1">Some Date</td>
+                        <td class="col-sm-1">Some place</td>
+                        <td class="col-sm-1">Some time</td>
+                        <td class="e-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur at distinctio esse fuga hic iure quae voluptatibus.
+                            Aut, distinctio eius in libero optio perferendis voluptatum.
+                        </td>
+                        <td class="col-sm-2">link to more info</td>
+                    </tr>
+                    <tr>
+                        <td class="col-sm-1">Some Topic</td>
+                        <td class="col-sm-1">Some Date</td>
+                        <td class="col-sm-1">Some place</td>
+                        <td class="col-sm-1">Some time</td>
+                        <td class="e-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aspernatur at distinctio esse fuga hic iure quae voluptatibus.
+                            Aut, distinctio eius in libero optio perferendis voluptatum.
+                        </td>
+                        <td class="col-sm-2">link to more info</td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<footer id="site-footer">
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+
+        </div>
+    </nav>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12 footer-widget">
+                <h4>Recent Posts</h4>
+                <div class="widget-content">
+                    <ul id="recent-posts">
+                        <li>post</li>
+                        <li>post</li>
+                        <li>post</li>
+                        <li>post</li>
+                        <li>post</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 footer-widget">
+                <h4>List Categories</h4>
+                <div class="widget-content">
+                    <ul id="list-cat">
+                        <li>cat</li>
+                        <li>cat</li>
+                        <li>cat</li>
+                        <li>cat</li>
+                        <li>cat</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 footer-widget">
+                <h4>Upcoming Events</h4>
+                <div class="widget-content">
+                    <ul id="upcoming">
+                        <li>event</li>
+                        <li>event</li>
+                        <li>event</li>
+                        <li>event</li>
+                        <li>event</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 footer-widget">
+                <h4>Contact Info</h4>
+                <div class="widget-content">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="assets/js/jquery-1.11.3.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

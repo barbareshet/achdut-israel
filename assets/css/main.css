@@ -58,7 +58,7 @@ header #top-bar {
   background-size: cover;
   height: 450px; }
 
-#hero #page-title {
+#hero #page-title, #hero #post-title {
   text-transform: capitalize;
   text-align: center;
   font-weight: bold;

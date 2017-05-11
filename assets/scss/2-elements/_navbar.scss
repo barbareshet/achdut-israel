@@ -1,31 +1,34 @@
-.navbar{
-  border-radius: 0;
-  margin-bottom: 0;
+header,
+header.fixed-top{
 
-  .nav{
-
-
-    li{
-
-      a{
-        text-transform: uppercase;
-        font-size: 2.5rem;
-        font-width:600;
-        color:#ffffff;
-      }
-    }
-    li.active{
-      a{
-        color: #fff000;
-      }
-    }
-  }
-
-}
-.navbar.affix{
   position: fixed;
-  right: 0;
-  left: 0;
-  top: 0;
-  z-index: 9999;
+  top:0;
+  right:0;
+  left:0;
+  z-index: 999;
+
+  .navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+
+    .nav{
+
+
+      li{
+
+        a{
+          text-transform: uppercase;
+          font-size: 2.5rem;
+          font-width:600;
+          color:#ffffff;
+        }
+      }
+      li.active{
+        a{
+          color: #fff000;
+        }
+      }
+    }
+
+  }
 }
